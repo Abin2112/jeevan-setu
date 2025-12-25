@@ -138,7 +138,7 @@ export const BystanderView: React.FC<BystanderViewProps> = ({
         <div className="w-10" />
       </div>
 
-      <div className="w-full max-w-md space-y-6 flex-1 overflow-y-auto pb-4">
+      <div className="w-full max-w-md space-y-6 flex-1 overflow-y-auto pb-24 md:pb-32">
         {/* IMAGE UPLOAD */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border">
           {!image ? (

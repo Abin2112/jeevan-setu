@@ -40,7 +40,7 @@ export const DriverView: React.FC<DriverViewProps> = ({ status, onAccept, pendin
             </div>
 
             {/* Main Map Area */}
-            <div className="flex-1 relative flex flex-col items-center justify-center p-4">
+            <div className="flex-1 relative flex flex-col items-center justify-center p-4 pb-24 md:pb-32">
 
                 {/* Map Background Simulation */}
                 <div className="absolute inset-0 opacity-20">

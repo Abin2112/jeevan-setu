@@ -3,10 +3,19 @@ const http = require('http');
 const { Server } = require('socket.io');
 const cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
+require('dotenv').config();
+const connectDB = require('./config/db');
+const authRoutes = require('./routes/authRoutes');
+
+// Connect to Database
+connectDB();
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+// Routes
+app.use('/api/auth', authRoutes);
 
 const server = http.createServer(app);
 const io = new Server(server, {

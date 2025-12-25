@@ -84,7 +84,7 @@ export const HospitalView: React.FC<HospitalViewProps> = ({ status }) => {
            </div>
        </div>
 
-       <div className="p-4 sm:p-6 max-w-7xl mx-auto w-full space-y-6">
+       <div className="p-4 sm:p-6 pb-24 md:pb-32 max-w-7xl mx-auto w-full space-y-6">
            
            {/* Stats Cards - Horizontal Scroll on very small screens if needed, otherwise stack/grid */}
            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

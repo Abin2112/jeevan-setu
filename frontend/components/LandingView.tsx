@@ -34,7 +34,7 @@ export const LandingView: React.FC<LandingViewProps> = ({ onNavigate }) => {
       </div>
 
       {/* Right Side: Actions */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-6 md:p-12 bg-gray-50 flex-1">
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-6 md:p-12 pb-24 md:pb-32 bg-gray-50 flex-1">
         <div className="w-full max-w-md space-y-6 sm:space-y-8">
           
           <div className="text-center md:text-left">
